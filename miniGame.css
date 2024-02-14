@@ -1,0 +1,267 @@
+body{
+    width:100%;
+    height:800px;
+    background-color:white;
+}
+
+body header{
+    width:100%;
+    height:7%;
+}
+
+/*--Title Bar----------------------------------------------------------------------------------------------------------*/
+
+.titleBar{
+    width:100%;
+    height:100%;
+    background-color:rgb(88, 88, 226);
+    display:flex;
+    justify-content: space-between;
+    border-bottom:3px solid red;
+}
+
+.titleBar_information{
+    width:4%;
+    height:100%;
+    justify-self: flex-start;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBar_container{
+    width:30%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBar_logo{
+    width:8.5%;
+    height:80%;
+    cursor:pointer;
+}
+
+.titleBar_name{
+    width:80%;
+    height:90%;
+    font-size:200%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia{
+    width:4%;
+    height:100%;
+}
+
+/*--Title Bar End----------------------------------------------------------------------------------------------------------*/
+
+/*--MAIN----------------------------------------------------------------------------------------------------------*/
+
+main{
+    width:100%;
+    height:83%;
+}
+
+.strip1{
+    width:100%;
+    height:10%;
+}
+
+/*--Player Strip----------------------------------------------------------------------------------------------------------*/
+
+.playerStrip{
+    width:100%;
+    height:22.5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playerStrip_randomX{
+    width:20%;
+    height:100%;
+}
+
+.playerStrip_player{
+    width:10%;
+    height:90%;
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.playerStrip_player_image{
+    width:90%;
+    height:90%;
+}
+
+.playerStrip_lives{
+    width:20%;
+    height:80%;
+    background-color: rgb(79, 79, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid red;
+}
+
+.playerStrip_lives i{
+    margin-left: 4%;
+    float:left;
+}
+
+/*--Player Strip End----------------------------------------------------------------------------------------------------------*/
+
+.strip2{
+    width:100%;
+    height:10%;
+}
+
+/*--Guess Strip----------------------------------------------------------------------------------------------------------*/
+
+.guessStrip{
+    width:100%;
+    height:20%;
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+
+.guessStrip img{
+    width:100%;
+    height:100%;
+}
+
+.guessStrip_position{
+    width:10%;
+    height:100%;
+    background-color: blanchedalmond;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 200%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.guessStrip_position img{
+    width:50%;
+    height:50%;
+}
+
+.guessStrip_country{
+    width:10%;
+    height:100%;
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.guessStrip_country img{
+    width:50%;
+    height:50%;
+}
+
+.guessStrip_age{
+    width:10%;
+    height:100%;
+    background-color: blanchedalmond;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 200%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.guessStrip_age img{
+    width:50%;
+    height:50%;
+}
+
+/*--Guess Strip End----------------------------------------------------------------------------------------------------------*/
+
+.strip3{
+    width:100%;
+    height:10%;
+}
+
+/*--Input Strip----------------------------------------------------------------------------------------------------------*/
+
+.inputStrip{
+    width:100%;
+    height:20%;
+    background-color: rgb(24,24,141);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.inputStrip_inputFields{
+    width:40%;
+    height:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.userInput{
+    width:23%;
+    height:40%;
+    color:White;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    border:3px solid red;
+    border-radius: 7%;
+
+}
+
+.guessButton{
+    width:15%;
+    height:40%;
+    color:White;
+    background-color: rgb(24,24,141);
+    font-family: 'Bebas Neue', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid red;
+    border-radius: 10%;
+    cursor:pointer;
+}
+
+.guessButton:hover{
+    background-color: rgb(36, 36, 192);
+}
+
+.giveUp{
+    width:10%;
+    height:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid red;
+    border-radius: 10%;
+}
+
+.giveUp:hover{
+    background-color: rgb(36, 36, 192);
+}
+
+/*--Input Strip End----------------------------------------------------------------------------------------------------------*/
+
+/*--MAIN END----------------------------------------------------------------------------------------------------------*/

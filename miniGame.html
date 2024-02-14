@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenal Enigma</title>
+
+    <!--Icon Kit Link-->
+    <script src="https://kit.fontawesome.com/cf017f5ecd.js" crossorigin="anonymous"></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@700&display=swap" rel="stylesheet">
+    
+    <!--Style Sheets-->
+
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="miniGame.css">
+</head>
+<body>
+
+
+<!--Nav Bar at top with logo and name-------------------------------------------------------------------------------------------------->
+    <header>
+        <div class="titleBar">
+            <div class="titleBar_information">
+                <!-- regular style -->
+                <i class="fa-solid fa-circle-info fa-beat fa-2xl" style="cursor:pointer;"></i>
+            </div>
+
+            <a href="index.html" class="titleBar_container">
+                <img class="titleBar_logo" src = "arsenalLogo.png">
+                <h1 class="titleBar_name">ARSENAL ENIGMA</h1>
+            </a>
+
+            <div class="socialMedia"></div>
+        </div>
+    </header>
+<!---------------------------------------------------------------------------------------------------------------------------------->
+    <main>
+        <div class="strip1"></div>
+<!--Player Strip Start-------------------------------------------------------------------------------------------------->
+        <div class="playerStrip">
+            <div class="playerStrip_randomX"></div>
+            
+            <div class="playerStrip_player">
+                <img class="playerStrip_player_image" src="footballerSilhouette.png">
+            </div>
+
+            <div class="playerStrip_lives">
+                <i id = "life1" class="fa-solid fa-futbol fa-spin fa-2xl"></i>
+                <i id = "life2" class="fa-solid fa-futbol fa-spin fa-2xl"></i>
+                <i id = "life3" class="fa-solid fa-futbol fa-spin fa-2xl"></i>
+                <i id = "life4" class="fa-solid fa-futbol fa-spin fa-2xl"></i>
+                <i id = "life5" class="fa-solid fa-futbol fa-spin fa-2xl"></i>
+            </div>
+        </div>
+<!--Player Strip End---------------------------------------------------------------------------------------------------------->
+        <div class="strip2"></div>
+<!--Guess Strip Start--------------------------------------------------------------------------------------------------------------->
+        <div class="guessStrip">
+            <div class="guessStrip_position"><img class="guessStrip_position_img" src="questionMark.png"></div>
+            <div class="guessStrip_country"><img class="guessStrip_country_img" src="questionMark.png"></div>
+            <div class="guessStrip_age"><img class="guessStrip_age_img" src="questionMark.png"></div>
+        </div>
+<!--Guess Strip End-------------------------------------------------------------------------------------------------------------->
+        <div class="strip3"></div>
+<!--Input Strip Start-------------------------------------------------------------------------------------------------------------->
+        <div class="inputStrip">
+            <div class="inputStrip_inputFields">
+                <input class = "userInput" placeholder = "Type the player here">
+                <button class="guessButton">Guess</button>
+                <div class="giveUp" style="cursor:pointer;"><i class="fa-regular fa-flag"></i></div>
+            </div>
+        </div>
+<!--Input Strip End-------------------------------------------------------------------------------------------------------------->
+
+    </main>
+
+    <script src="miniGame.js"></script>
+</body>
+</html>
